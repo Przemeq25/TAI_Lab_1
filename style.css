@@ -1,0 +1,13 @@
+body{
+    margin:auto;
+    padding:0;
+    width: 50%;
+    background-color: cyan;
+}
+ul {
+    display:flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+}
