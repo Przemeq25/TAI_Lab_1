@@ -32,3 +32,11 @@ nav {
     justify-content: center;
     padding-top: 50px;
 }
+
+.footer {
+    background-color: brown;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
