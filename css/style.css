@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: auto;
     height: 100%;
@@ -52,4 +56,11 @@ nav {
     height: 50px;
     text-align: center;
     color: white;
+}
+
+.scroll {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
 }
