@@ -47,7 +47,7 @@ nav {
 }
 
 .content {
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 120px);
 }
 
 .footer {
@@ -63,4 +63,25 @@ nav {
     position: fixed;
     bottom: 30px;
     right: 30px;
+}
+
+.list-group-item {
+    cursor: pointer;
+    color: black;
+}
+
+.correct {
+    background-color: #289a27;
+}
+
+.incorrect {
+    background-color: #c41a21;
+}
+
+.buttons {
+    padding: 10px 10px 10px 0;
+}
+
+.results {
+    display: none;
 }
